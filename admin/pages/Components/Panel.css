@@ -1,0 +1,47 @@
+.panel{
+    display: flex;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.leftpanelcontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 16vw;
+    padding: 20px;
+    border-radius: 5px;
+    height: 470px;
+    border: 2px solid rgb(255, 136, 0);
+    background: #c7c5c5;
+}
+.rightpanelcontainer{
+    width: 80vw;
+    background: #edfafa;
+    height: 511px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 136, 0);
+}
+.main,.lists,.adminlist{
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    flex-direction: column;
+}
+h5{
+    font-size: 20px;
+}
+.activebtn{
+    font-size:16px;
+    border: none;
+    padding: 5px;
+    background: #c7c5c5;
+    width: 100px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+}
+.activebtn:focus{
+    background: #6b6868dc;
+}

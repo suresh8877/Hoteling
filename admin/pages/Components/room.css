@@ -1,0 +1,99 @@
+
+
+.roomsconatiner{
+    padding: 20px;
+}
+.roomheader{
+    display: flex;
+    justify-content: space-between;
+    div{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    button{
+        width: 140px;
+        padding: 10px;
+        font-weight: 800;
+        border: none;
+        background: rgb(48, 218, 32);
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+.roomlister{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.roomlistitem{
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    display: flex;
+    div{
+        flex: 1;
+    }
+    button{
+        font-size: 16px;
+        background: #fab92c;
+        border: none;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+.addroom{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000a9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addroomconatiner{
+    padding: 10px;
+    background: white;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 40vh;
+    button{
+        font-size: 20px;
+        background: #f19123;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+.optionheader{
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    img{
+        cursor: pointer;
+    }
+}
+.itemoption{
+    display: flex;
+    justify-content: center;
+    label{
+        flex:1;
+    }
+    input{
+        flex:1;
+        padding: 5px;
+    }
+    select{
+        width:180px;
+        font-size: 12px;
+        padding: 5px;
+    }
+}

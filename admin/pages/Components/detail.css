@@ -1,0 +1,27 @@
+.detail{
+    width: 100%;
+}
+
+
+.navigator{
+    display: flex;
+    padding: 10px;
+    gap: 40px;
+    justify-content: center;
+    background: #e0eb78;
+    align-items:center;
+}
+.navigator>button{
+    padding: 8px;
+    border-radius: 10px;
+    margin: 2px;
+    width: 80px;
+    border: none;
+    font-size: 17px;
+}
+.navigator>button:focus{
+    border: 2px solid rgb(250, 240, 107);
+    background: rgb(236, 192, 70);
+    border-radius: 10px;
+    cursor: pointer;
+}

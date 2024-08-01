@@ -1,0 +1,36 @@
+
+
+.dashboardcontainer{
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.userinfo{
+    border: 1px solid black;
+    width:400px;
+    gap: 20px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background: #d1d2d3a8;
+}
+.head1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.head2{
+    font-size: 30px;
+    font-weight:bolder;
+}
+.head3{
+    font-size: 20px;
+    font-weight:400;
+    text-align: center;
+}

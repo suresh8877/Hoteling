@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bypricescontainer{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    gap: 10px;
+}
+
+.bypricescard{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border-radius: 10px;
+    border: 2px solid yellow;
+    position: relative;
+    cursor: pointer;
+}
+.bypricescard>img{
+    height: 200px;
+}
+.bypricename{
+    padding: 0px 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.bypricecity{
+    padding: 0px 5px;
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.bypricestarting{
+    padding: 5px 10px;
+    justify-content: end;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bypricesrating{
+    padding: 5px 5px;
+}
+.bypricesrating>button{
+    margin: 4px;
+    outline: none;
+    border: none;
+    background: blue;
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 5px;
+}

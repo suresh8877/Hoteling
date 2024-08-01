@@ -1,0 +1,96 @@
+
+
+.listlayout{
+    margin: 20px;
+}
+
+.listcontainer{
+    display: flex;
+    border: 2px solid blue;
+    padding: 5px;
+    gap: 10px;
+}
+.listcontainer>img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}
+.listinfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.title3{
+    background: green;
+    width: 40%;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    height: 20px;
+}
+.title4{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.title5{
+
+}
+.title6{
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+}
+.title7{
+    color: green;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.detailslist{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 150px;
+}
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+.rating>span{
+    font-size: 20px;
+    font-weight:bolder;
+}
+.rating>button{
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: rgb(47, 2, 153);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.listpricing{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+.pricehead1{
+    font-size: 25px;
+    font-weight: 700;
+}
+.pricehead2{
+    font-size: 15px;
+}
+.listpricing>button{
+    font-size: 15px;
+    height: 30px;
+    color: white;
+    border: none;
+    background: rgb(23, 2, 143);
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}

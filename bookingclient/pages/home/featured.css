@@ -1,0 +1,25 @@
+
+.featuredcontainer{
+    margin: 20px;
+    padding: 20px;
+}
+
+.featuredlayout{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    gap: 30px;
+}
+.featuredcard{
+    height: 240px;
+    width: 200px;
+    object-fit: cover;
+}
+.featuredcard>img{
+    border-radius: 10px;
+    width: 100%;
+    height: 75%;
+}
+.featurehead{
+    padding: 0px 2px;
+}

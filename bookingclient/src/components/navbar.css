@@ -1,0 +1,33 @@
+.navbar{
+    background: #01019e;;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navoptions{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.navlogo{
+    font-size:xx-large ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbtns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navbtn{
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #0d0dbd;
+}

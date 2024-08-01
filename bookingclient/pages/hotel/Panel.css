@@ -1,0 +1,79 @@
+
+.panel{
+}
+
+.panelcontainer{
+    margin:20px 50px;
+    position: sticky;
+    top: 20px;
+}
+
+.panelcontrol{
+    height: 400px;
+    width: 300px;
+    padding: 10px 15px;
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    gap: 5px;
+}
+.search{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.title1{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.panelinput{
+    width: 95%;
+    font-size: 20px;
+    height: 35px;
+    padding: 1px 5px;
+}
+.check{
+    display: flex;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.date{
+    position: relative;
+}
+.daterange-hotel{
+    position: absolute;
+    top: 0;
+}
+.options{
+    margin:5px 20px;
+}
+.option{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+}
+.option>span{
+    font-size: 18px;
+    font-weight: 200;
+}
+.option>input{
+    font-size: 15px;
+    font-weight: 200;
+    width: 80px;
+    height: 30px;
+}
+.searchpanel{
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: blue;
+    padding: 2px;
+    margin: auto;
+    width: 80%;
+    cursor: pointer;
+}
+

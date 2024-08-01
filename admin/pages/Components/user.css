@@ -1,0 +1,102 @@
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.usercontainer{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.addhead{
+    display: flex;
+    justify-content: space-between;
+}
+.addusercontainer{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    background: rgba(119, 111, 111, 0.753);
+}
+.adduserform{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 65vh;
+    width: 20vw;
+    background: white;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 20px;
+}
+.closeadduser{
+    position: absolute;
+    top: 5px;
+    cursor: pointer;
+    right: 5px;
+}
+.adduserform>input{
+    width: 100%;
+    height: 20px;
+}
+.userlist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user1{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid rgb(255, 187, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    flex:1;
+}
+.subbtn{
+    font-size: 15px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+    background: #f7b053;
+    cursor: pointer;
+}
+.user1>button{
+    width: 100px;
+    padding: 5px;
+    border: none;
+    background: goldenrod;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.userhead1,.usercity,.userhead2,.userhead3,.usercity{
+    flex: 1;
+}
+.user1>img{
+    width:30px;
+    height: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.addbtnuser{
+    width: 100px;
+    padding: 10px;
+    font-weight: 800;
+    border: none;
+    background: rgb(48, 218, 32);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}

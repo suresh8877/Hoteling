@@ -1,0 +1,35 @@
+.citycontainer{
+    display: flex;
+    margin: 25px;
+}
+.cities{
+    margin: 25px;
+    width:100%;
+    gap:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.citycard{
+    height:400px;
+    width:350px;
+    position: relative;
+    object-fit:fill;
+    overflow: hidden;
+    z-index: -1;
+    border-radius: 10px;
+}
+.citycard>img{
+    position: absolute;
+    right:0px;
+    height:100%;
+    z-index: -1;
+}
+.cityheads{
+    font-size: 20px;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    color: black;
+    -webkit-text-stroke: 1px rgb(252, 235, 3);
+}
